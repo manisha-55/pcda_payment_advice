@@ -1,0 +1,6 @@
+name: 'PCDA Module'
+type: module
+description: 'A module for fetching payment advice based on PAN and claimed amount.'
+core_version_requirement: ^10
+package: Custom
+

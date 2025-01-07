@@ -1,0 +1,26 @@
+pcda_module.homePageContent:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\pcda_module\Controller\HomePageController::homePageContent'
+    _title: 'PCDA Hyderabad'
+  requirements:
+    _permission: 'access content'
+
+pcda_module.payment_form:
+  path: '/pcda-payment-form'
+  defaults:
+    _controller: '\Drupal\pcda_module\Controller\PcdaPaymentController::paymentForm'
+    _title: 'PCDA Payment Form'
+  requirements:
+    _permission: 'access content'
+
+
+# pcda_module.payment_form:
+#   path: '/admin/config/pcda-payment-form'
+#   defaults:
+#     _controller: '\Drupal\pcda_module\Controller\PcdaPaymentController::paymentForm'
+#     _title: 'PCDA Payment Form'
+#   requirements:
+#     _permission: 'administer site configuration'
+#   options:
+#     _admin_menu: TRUE
