@@ -1,5 +1,5 @@
-# PCDA Payment Advice Module
-A simple Drupal module to manage payment advice forms for PCDA Hyderabad.
+#Payment Advice Module
+A simple Drupal module to manage payment advice forms.
 
 ## Features
 - Displays a user form for PAN and claimed amount.
